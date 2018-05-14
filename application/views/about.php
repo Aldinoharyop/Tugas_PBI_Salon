@@ -61,7 +61,7 @@
 												<i class="fa fa-user fa-fw"></i>Tentang Kami</a>
 										</li>
 										<li>
-											<a href="<?php echo base_url()?>index.php/Service" data-section="#services" class="menu-smooth-scroll">
+											<a href="<?php echo base_url()?>index.php/Services" data-section="#services" class="menu-smooth-scroll">
 												<i class="fa fa-list fa-fw"></i>Layanan</a>
 										</li>
 										<li>
