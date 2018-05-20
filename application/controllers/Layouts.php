@@ -12,19 +12,19 @@ class Layouts extends MY_Controller {
 	}
 
 	public function tentangkami(){
-		$this->render_page('about');
+		$this->load->view('about');
 	}
 
 	public function servis(){
-		$this->render_page('service');
+		$this->load->view('service');
     }
     
     public function bundel(){
-        $this->render_page('bundle');
+        $this->load->view('bundle');
     }
 
     public function reserve(){
-        $this->render_page('reservation');
+        $this->load->view('reservation');
     }
 }
 

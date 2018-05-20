@@ -65,7 +65,7 @@
 									<ul class="right static-menu">
 
 										<li>
-											<a href="<?php echo base_url()?>index.php/About" data-section="#about" class="menu-smooth-scroll">
+											<a href="<?php echo base_url()?>index.php/Layouts/tentangkami" data-section="#about" class="menu-smooth-scroll">
 												<i class="fa fa-user fa-fw"></i>Tentang Kami</a>
 										</li>
 										<li>
@@ -73,7 +73,7 @@
 												<i class="fa fa-list fa-fw"></i>Layanan</a>
 										</li>
 										<li>
-											<a href="#" data-section="#bundles" class="menu-smooth-scroll">
+											<a href="<?php echo base_url()?>index.php/Layouts/bundel" data-section="#bundles" class="menu-smooth-scroll">
 												<i class="fa fa-list fa-fw"></i>Paket</a>
 										</li>
 										<li>
@@ -85,7 +85,7 @@
 												<i class="fa fa-phone-square fa-fw"></i>Contact</a>
 										</li>
 										<li>
-											<a href="<?php echo base_url()?>index.php/Admin">
+											<a href="<?php echo base_url()?>index.php/Admin/login">
 												<i class="fa fa-handshake-o fa-fw"></i>Admin</a>
 										</li>
 										<li>
@@ -122,7 +122,7 @@
 										<span>Zahra</span>
 									</h1>
 									<h2 class="home-subtitle">Muslimah Salon and Spa</h2>
-									<a href="service.php" class="btn waves-effect waves-light btn-large brand-bg white-text regular-text">Reservasi
+									<a href="<?php echo base_url()?>index.php/Layouts/reserve" class="btn waves-effect waves-light btn-large brand-bg white-text regular-text">Reservasi
 										<i class="mdi-content-send left"></i>
 									</a>
 								</div>

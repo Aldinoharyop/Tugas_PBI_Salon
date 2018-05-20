@@ -28,7 +28,7 @@ class Admin extends CI_Controller
 
 	function reservation(){
 		$this->load->view('admin/reservation');
-	}
+	}	
 
 
 }
